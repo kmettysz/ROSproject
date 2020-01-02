@@ -1,0 +1,20 @@
+{
+    "files.associations": {
+        "*.gazebo": "xml",
+        "*.launch": "xml",
+        "*.world": "xml",
+        "*.tcc": "cpp",
+        "bitset": "cpp",
+        "list": "cpp",
+        "exception": "cpp",
+        "istream": "cpp",
+        "sstream": "cpp",
+        "streambuf": "cpp",
+        "cmath": "cpp",
+        "core": "cpp",
+        "*.txx": "cpp"
+    },    
+    "python.autoComplete.extraPaths": [
+        "/opt/ros/kinetic/lib/python2.7/dist-packages"
+    ],
+}
