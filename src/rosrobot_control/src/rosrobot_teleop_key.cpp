@@ -8,8 +8,7 @@
 #define KEYCODE_LEFT 'a'
 #define KEYCODE_DOWN 's'
 #define KEYCODE_RIGHT 'd' 
-
-class Car
+class Robot
 {
   public:
     Robot();
@@ -59,8 +58,8 @@ void Robot::keyLoop()
   after.c_lflag &= ~(ICANON | ECHO);
   tcsetattr(kfd, TCSANOW, &after);
 
-  puts("Reading from keyboard...");
-  puts("Use WASD keys to move the car.");
+  puts("Varom a billentyuzet leuteset:");
+  puts("Hasynald a WASD billenyukat a robot mozgatasahoz");
 
   while (ros::ok())
   {
